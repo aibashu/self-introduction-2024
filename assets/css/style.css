@@ -1,0 +1,17 @@
+@import "https://unpkg.com/ress/dist/ress.min.css";
+*{
+    box-sizing:border-box;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    font: size 1.6em;
+    line-height: 1;
+    color: 212121;
+    background: #efefef;
+}
+/*==

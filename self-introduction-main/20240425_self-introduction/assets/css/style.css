@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+@import "https://unpkg.com/ress/dist/ress.min.css";
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+body{
+    font-size: 1.6em;
+    line-height: 1;
+    color: #212121;
+    background: #ffceda;
+}
+
+
+
+.example {/*親div*/
+    position: relative;/*相対配置*/
+
+    }
+  
+  .example p {
+    position: absolute;/*絶対配置*/
+    color: black;/*文字は黒に*/
+    top: 0;
+    left: 0;
+    }
+    .example {/*親div*/
+        position: relative;
+        }
+      
+      .example p {
+        position: absolute;
+        color: black;/*文字は黒に*/
+        font-weight: bold; /*太字に*/
+        font-size: 3em;/*サイズ3倍*/
+        font-family :Quicksand, sans-serif;/*Google Font*/
+        top: 0;
+        left: 0;
+        opacity: 0.5;
+        }
+        .example {
+            position: relative;
+            }
+          
+          .example p {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%,-50%);
+            -webkit-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+            margin:0;
+            padding:0;
+            ;
+            /*文字の装飾は省略*/
+            }
+          
+            .example img {
+                width: 119.2%;
+                margin: -80px;
+                }
+
+
+
+#aikon img{ /*アイコン*/
+    border-radius: 50%; 
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+   
+}
+
+.my-name ruby{
+    text-align: center;
+}
+/*================================
+*/
+/*       全体
+*/
+/*==============================*/
+main{
+    width: 1000px;
+    padding: 80px;
+    margin: 100px auto;
+    background: #fff;
+}
+/*---------------------------
+/*   section内
+---------------------------*/
+section h2{
+    width: 100%;
+}
+section p{
+    padding: 0 1em;
+    line-height: 1.8;
+}
+section ul{
+    padding: 0 2em
+}
+section li{
+    line-height
+}
+
+section img{
+    display: block;
+    margin: 8px 0;
+}
+
+section + section{
+    margin-top: 40x;
+}
+
+section iframe.youtube{
+    aspect-ratio: 16/9;
+}
+
+/*---------------------------
+/* 左右分割
+---------------------------*/
+.left-area,
+.right-area {
+    width: 50%;
+}
+/*---------------------------
+/* 見出し
+---------------------------*/
+h2 {
+    line-height: 2;
+    text-align: center;
+    border-top: 2px solid #a27dac;
+    border-bottom: 2px solid #a27dac;
+    margin-bottom: 1em;
+}
+
+h3 {
+    line-height: 1.5;
+    padding-left: 0.5em;
+    border-left: 8px solid #ac7d99;
+    margin-bottom: 0.5em;
+}
+h3:nth-of-type(n + 2){
+    margin-top: 1.5em;
+}
+/*=============================
+*/
+/* section#profile
+*/
+/*===========================*/
+#pofile {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#profile img{
+    display: block;
+    margin: auto;
+}
+
+#my-name{
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0.5em 0 1em;
+    font-weight: bold;
+}
+
+/*=============================
+*/
+/* section#fovorite
+*/
+/*===========================*/
+
+#fovorite{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fav-color{
+    color: rgb(175, 112, 228)
+}
+
+
